@@ -1,0 +1,289 @@
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px; 
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Courier New";
+  background-color: rgb(9, 9, 9);
+}
+
+.about{
+  display: flex;
+  margin: 50px;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 25px;
+}
+
+.left{
+  display: flex;
+  justify-content: stretch;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.left-greeting{
+  font-size: xx-large;
+  color: seashell;
+}
+
+.left-my-title{
+  font-size: larger;
+  font-weight: bold;
+  color: seashell;
+}
+
+
+.left-paragraph{
+  max-width: 500px;
+  color: silver;
+}
+
+
+
+.left-buttons{
+  display: flex;
+  gap: 10px;
+}
+
+.left-buttons a{
+  padding: 10px;
+  text-decoration: none;
+  display: flex;
+  color: seashell;
+  cursor: pointer;
+
+  position: relative;
+  top: 0;
+  transition: top ease 0.5s;
+}
+
+.left-buttons a:hover{
+  top: -5px;
+}
+
+.left-buttons img{
+  display: flex;
+  border-radius: 5px;
+  width: 40px;
+  height: 40px;
+}
+
+.right img{
+  max-width: 500px;
+  max-height: 500px;
+  border: 2mm ridge;
+  border-radius: 30px;
+}
+
+
+
+.experience{
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
+  align-items: center;
+}
+
+.experience .Exp-Title{
+  display: flex;
+  justify-content: center;
+  color: silver;
+}
+
+
+.experience .bottom{
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 10px;
+  gap: 20px;
+}
+
+.Exp-Entry{
+  display: flex;
+  gap: 10px;
+  border: dashed rgb(34, 33, 33);
+  border-radius: 15px;
+  padding: 10px;
+  background-color: rgb(34, 34, 35);
+
+  position: relative;
+  top: 0px;
+  transition: top ease 0.5s;
+}
+
+.Exp-Entry:hover{
+  top: -3.5px;
+  border: dashed rgb(70, 1, 70)
+}
+
+.Exp-Entry .Entry-Details{
+  display: flex;
+  flex-direction: column;
+}
+
+.Entry-Details .Description{
+  font-family: "Helvitica";
+  margin: 10px;
+}
+
+.Exp-Entry .Title{
+  display: flex;
+  font-family: "Helvitica";
+  justify-content: flex-start;
+  color: seashell;
+  font-weight: bold;
+}
+
+.Exp-Logo img{
+  display: flex;
+  height: 60px;
+  width: 60px;
+  border-radius: 10px;
+}
+
+.Exp-Entry .Dates{
+  display: flex;
+  margin-left: auto;
+  margin-right: 10px;
+  color: silver;
+  height: 25px;
+  border-radius: 15px;
+}
+
+.Exp-Entry .Description{
+  display: flex;
+  color: silver;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.Projects{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.Projects .Projects-Title{
+  color: Silver;
+}
+
+.Projects .Project-Bottom{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.Projects .Project-Entries{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 350px;
+  height: 500px;
+  border: dashed rgb(34, 33, 33);
+  border-radius: 15px;
+  padding: 40px;
+  background-color: rgb(34, 34, 35);
+  gap: 20px;
+
+  position: relative;
+  top: 0px;
+  transition: top ease 0.5s;
+}
+
+.Projects .Project-Entries:hover{
+  top: -8px;
+}
+
+
+
+.Project-Entries .Title-Link a{
+  color: rgb(199, 191, 191); 
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.Project-Entries .Title-Link a:hover{
+  color: rgb(175, 3, 175);
+  text-decoration: underline;
+}
+
+
+
+.Project-Entries .Cover img{
+  display: flex;
+  width: 350px;
+}
+
+.Project-Entries  .Project-Description p{
+  color: silver;
+  font-size: small;
+}
+
+.navbar{
+  display: flex;
+  margin: 10px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  height: 60px;
+  align-items: center;
+  backdrop-filter: blur(10px);
+}
+
+.navbar .Home-Button a{
+  display: flex;
+  margin-left: 185px;
+  text-decoration: none;
+  letter-spacing: -1px;
+  font-family: "OCR A Std", monospace;
+  color: seashell;
+  font-weight: bold;
+}
+
+.navbar .Home-Button a:hover{
+  color: rgb(175, 3, 175);
+}
+
+.nav-link-box{
+  display: flex;
+  margin-left: auto;
+  margin-right: 30px;
+  gap: 30px;
+}
+
+.nav-links a{
+  text-decoration: none;
+  color: silver;
+
+  position: relative;
+  top: 0;
+  transition: top ease 0.5s;
+}
+
+.nav-links a:hover{
+  top: -2px;
+  color: white;
+}
