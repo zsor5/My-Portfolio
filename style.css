@@ -235,6 +235,7 @@ body{
 .Project-Entries .Cover img{
   display: flex;
   width: 350px;
+  height: 250px;
 }
 
 .Project-Entries  .Project-Description p{
